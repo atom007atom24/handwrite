@@ -126,7 +126,7 @@ def shom_result():
     imgData = transMNIST(path, borders)   #转变成mnist格式图像
     results = predict(imgData)                #进行预测
     showResults(path, borders, re_path,results)   #图像展示
-
+# 结构体
 if __name__ =="__main__":
     # train(5)
     shom_result()
